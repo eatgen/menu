@@ -7,6 +7,11 @@
     src: url("../menu/fonts/Cuprum-Regular.ttf") format('truetype');
 }
 
+.sm {
+  margin-right: 20px;
+  font-size: 40px;
+}
+
 h1.title {
   font-family: "arkipelago";
   font-size: 80px;
@@ -39,15 +44,11 @@ li li {
   list-style-image: "assets/chilli.png";
 }
 
-button {
-  background-color: #54C354;
-  padding: 10px;
-  margin: 20px;
-}
-
 .btn {
   font-size: 20px;
   font-family: "cuprum";
+  margin-bottom: 20px;
+  background-color: #54C354;
 }
 
 .tocify-extend-page {

@@ -29,6 +29,8 @@ font_add("cuprum",
          bolditalic = "Cuprum-BoldItalic.ttf")
 ```
 
+[`r fontawesome::fa('instagram', fill = '#2C2828')`](https://www.instagram.com/eatgen/){.sm}
+[`r fontawesome::fa('whatsapp', fill = '#2C2828')`](https://wa.me/628123800436){.sm}
 <a href="https://gofood.link/u/k54ve" class="btn btn-success">Order in GoFood Now</a>
 
 ## Promo
