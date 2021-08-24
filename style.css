@@ -1,3 +1,12 @@
+@font-face {
+    font-family: arkipelago;
+    src: url("../menu/fonts/Arkipelago.ttf") format('truetype');
+}
+@font-face {
+    font-family: cuprum;
+    src: url("../menu/fonts/Cuprum-Regular.ttf") format('truetype');
+}
+
 h1.title {
   font-family: "arkipelago";
   font-size: 80px;

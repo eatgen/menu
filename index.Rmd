@@ -29,24 +29,7 @@ font_add("cuprum",
          bolditalic = "Cuprum-BoldItalic.ttf")
 ```
 
-## Promo
-
-- Mie Ayam `+` Es Teh
-
-## Basic Menu
-
-- Nasi Goreng Biasa
-- Nasi Goreng Special
-- Nasi Goreng Pete
-- Nasi Pecel
-- Nasi Pecel Special
-- Nasi + Rawon
-- Tahu Petis
-
-## Sayuran
-
-- Cah Kangkung
-- Cah Tauge
+<a href="https://gofood.link/u/k54ve" class="btn btn-success">Order in GoFood Now</a>
 
 ## Ikan
 
@@ -94,5 +77,6 @@ font_add("cuprum",
 - Flat White
 - Mocha
 
-<button href="https://gofood.link/u/k54ve" type="button" class="btn btn-success">Order in GoFood Now</button>
+<br>
 
+<a href="https://gofood.link/u/k54ve" class="btn btn-success">Order in GoFood Now</a>
