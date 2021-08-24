@@ -94,3 +94,5 @@ font_add("cuprum",
 - Flat White
 - Mocha
 
+<button href="https://gofood.link/u/k54ve" type="button" class="btn btn-success">Order in GoFood Now</button>
+
