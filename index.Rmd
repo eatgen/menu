@@ -1,0 +1,96 @@
+---
+title: "Eat Gen Menu"
+date: "Updated `r format(Sys.Date(), '%d %B %Y')`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# load library
+library(showtext)
+library(fontawesome)
+
+# path to fonts folder
+font_paths("fonts")
+
+# add 2 fonts
+font_add("arkipelago",
+         regular = "Arkipelago.ttf")
+font_add("cuprum",
+         regular = "Cuprum-Regular.ttf",
+         bold = "Cuprum-Bold.ttf",
+         italic = "Cuprum-Italic.ttf",
+         bolditalic = "Cuprum-BoldItalic.ttf")
+```
+
+## Promo
+
+- Mie Ayam `+` Es Teh
+
+## Basic Menu
+
+- Nasi Goreng Biasa
+- Nasi Goreng Special
+- Nasi Goreng Pete
+- Nasi Pecel
+- Nasi Pecel Special
+- Nasi + Rawon
+- Tahu Petis
+
+## Sayuran
+
+- Cah Kangkung
+- Cah Tauge
+
+## Ikan
+
+- Nila Menyat-nyat `r fa("pepper-hot", fill = "#FF0000")`
+  - `+` sayur
+- Nila Goreng
+  - `+` lalapan 
+  - `+` sambal
+- Steak Tenggiri
+  - `+` sambal matah
+  - `+` sambal kecap
+- Sup Tenggiri
+- Pepes Nila `r fa("pepper-hot", fill = "#FF0000")`
+- Pepes Baby Tuna `r fa("pepper-hot", fill = "#FF0000")`
+  - `+` sayur
+
+## Ayam
+
+- Betutu Ayam Kampung `r fa("pepper-hot", fill = "#FF0000")`
+- Ayam Telor Asin
+- Ayam Teriyaki
+  - `+` sayur
+- Ayam Goreng Mentega
+
+## Udang
+
+- Udang Telor Asin
+- Udang Goreng Tepung
+- Udang Mentega
+- Udang Panggang
+  - `+` sambal matah
+  - `+` plecing kangkung
+
+## Minuman
+
+- Teh Tawar
+- Teh Manis
+- Jeruk 
+- Jeruk Special
+
+## Coffee
+
+- Long Black
+- Cappucino / Latte
+- Flat White
+- Mocha
+

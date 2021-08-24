@@ -1,0 +1,20 @@
+h1, h2 {
+  font-family: "arkipelago"
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-family: "cuprum";
+  font-size: 1.5em;
+}
+
+li li {
+  font-size: 0.8em;
+}
+
+.spicy {
+  list-style-image: "assets/chilli.png";
+}
